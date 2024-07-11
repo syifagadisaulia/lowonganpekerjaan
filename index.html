@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web | Portofolio</title>
+    <style>
+      body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        padding: 0;
+        margin: 0;
+      }
+
+      .sidebar {
+        width: 15%;
+        height: 100vh;
+        background: linear-gradient(
+          to bottom,
+          #ff69b4,
+          #8a2be2
+        ); /* From pink to purple */
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 241, 241);
+      }
+
+      .sidebar ul li {
+        list-style: none;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .content {
+        margin-inline: 20px;
+        height: 64vh;
+      }
+
+      .content .hero {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+      }
+
+      .hero-content h1 {
+        font-size: 64px;
+        color: #000000;
+      }
+
+      .hero-content h2 {
+        font-size: 32px;
+        color: #000000;
+        margin-top: -30px;
+      }
+
+      .content .hero img {
+        width: 300px;
+        height: 300px;
+      }
+
+      .hero-content p {
+        font-size: 20px;
+        color: #888888;
+        padding-inline-end: 160px;
+      }
+
+      .action-btn {
+        background-color: #3d37e0;
+        color: #ffffff;
+        padding: 10px 40px;
+        border-radius: 24px;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 60px;
+      }
+
+      .footer {
+        margin-top: 100px;
+        background-color: #ffffff;
+      }
+
+      .footer ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+      }
+
+      .footer ul li {
+        list-style: none;
+      }
+
+      .footer ul li a img {
+        width: 64px;
+        height: 64px;
+      }
+
+      .footer ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Portofolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <main class="content">
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Profesi</h1>
+            <h2>Junior Content Writer at Dicoding</h2>
+            <p>
+              Perusahaan itu sendiri adalah perusahaan yang sangat sukses, dan
+              juga bermartabat,jadi ia ingin mencari lowongan kerja dengan
+              kesusahan ,selalu ditolak, ditolak, dan ditolak dengan akibat yang
+              cukup besar, maka bisa hubungi sosial media dibawah ini
+            </p>
+          </div>
+          <img src="profile.png" alt="profile vektor" />
+        </section>
+        <a href="" class="action-btn">Profile Saya</a>
+      </main>
+      <div class="footer">
+        <footer>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img src="instagram.png" alt="" />
+                <p>Instagram</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="facebook.png" alt="" />
+                <p>Facebook</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="twitter.png" alt="" />
+                <p>Twitter</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="telegram.png" alt="" />
+                <p>Telegram</p>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
